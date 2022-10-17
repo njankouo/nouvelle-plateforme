@@ -1,0 +1,25 @@
+/**
+ * author:@kemajoufred
+ * partie délicate, faire très attention
+ */
+ $(document).ready(function(){
+
+    $('.sidenav').sidenav();
+    $('.dropdown-trigger').dropdown({
+    inDuration: 300,
+    outDuration: 225,
+    coverTrigger:false,
+    hover: true, // Activate on hover
+     // Displays dropdown below the button
+    alignment: 'left' // Displays dropdown with edge aligned to the left of button
+  }
+);    
+   
+
+   
+  });
+/**
+ * Où il faut continuer, sans toucher les fonctions du dessus
+ * ici, on peut bien faire du ajax ou tout autre langage concernant le js
+ * faire bien attention, car ici le moindre changement peut être catastrophique.
+ */

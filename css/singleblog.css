@@ -1,0 +1,292 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navigation{
+    box-shadow: 0;
+}
+.brand-logo{
+    margin-left: 0%;
+    
+}
+.menu_link{
+    display: inline-block;
+}
+.navi_tab{
+    margin-left: 10%;
+    margin-right: 0;
+    
+}
+.navi_tab li{
+    font-weight: bold;
+}
+.log_sign{
+    margin-right: 10%;
+}
+.li_user_view{
+    display: inline-block;
+    border-bottom: inset 2px red;
+   
+}
+
+.sign{
+    padding:2%;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.log_sign li > a{
+    font-size: 15px;
+    font-weight: bold;
+}
+.search_form{
+    border: 0px solid red;
+    width: 40%;
+    margin-left: 2%;
+    padding: 0;
+    display: inline-block;
+    
+}
+.search_form input[type="search"]{
+    border: 0px solid green;
+    margin-left: 0;
+    margin-top:0;
+    
+    
+}
+/*deuxième place detail du cours*/
+main{
+    border: 0px solid magenta;
+    height: auto;
+}
+.single_detail_place{
+    height: 100%;
+    
+}
+.single_detail_place .row{
+    height: 100%;
+}
+.single_blog_con{
+    height: 100%;
+    border: 0px dashed green;
+    
+
+}
+
+.single_detail_place .row .related_con{
+    height: 100%;
+    border: 0px dashed rgb(0, 9, 128);
+    padding: 0;
+    padding-top: 2.5%;
+    padding-left: 0.2%;
+    
+
+}
+
+.related_con .img_con{
+    height: 20%;
+    border: 0px solid green;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    
+    
+    
+}
+.img_con img{
+    height: 100%;
+    width: 100%;
+    border: 2px inset grey;
+}
+.title_art{
+    font-weight: bold;
+    font-size: 30px;
+    border: 0px solid green;
+    margin-bottom: 0;
+}
+.auth_art{
+    border: 0px solid red;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.dat_art{
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 0;
+}
+.dat_art i{
+    font-size: 11px;
+}
+.single_detail_place .row .con_art{
+    border: 0px solid red;
+    font-size: 30px;
+    text-align: justify;
+    overflow: auto;
+    height: auto;
+    padding: 25px;
+    
+}
+.see_al{
+    color: grey;
+    font-weight: bold;
+    border: 0px solid maroon;
+}
+.card .card-image {
+    width: 40%;
+    
+}
+.card .card-image img{
+    height: 100%;
+    
+}
+/*pour les sticky blog*/
+
+/*pour les commentaires*/
+.the_comment{
+    border: 0px dashed maroon;
+    height: 400px;
+    overflow: auto;
+}
+.input-field textarea:focus + label.active {
+    color: black;
+   
+  }
+  .input-field label {
+    color: grey;
+  }
+ .add_com textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 0 0 black; /*pour changer la couleur du textearea*/
+ }
+.collection .secondary-content{
+    font-size: 14px;
+    color: black;
+}
+.collection .secondary-content i{
+    font-size: 14px;
+    color: black;
+}
+ 
+#button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\2B9D";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  /*fin bouton*/
+
+  /*la modification du scroll bar (pour commentaire)*/
+
+    /* width */
+ .the_comment::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  /* Track. conteneur de scroll bar*/
+  .the_comment::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  /* Handle. la bar en elle meme */
+  .the_comment::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover. au survol de la barre */
+  .the_comment::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+        
+
+  /*fin modif*/
+
+/* le footer */
+footer .footer-copyright p a {
+    border: 0px solid black;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-right: 6px;
+    
+}
+footer .footer-copyright p a img{
+    border: 0px solid black;
+    width: 35px;
+    height: 35px;
+    filter: grayscale(100%);
+}
+footer .footer-copyright p a:hover img{
+   
+    filter: none;
+}
+.copy_right{
+    width: 250px;
+    margin-top: 2%;
+}
+/*dropdown content*/
+.dropdown-content {
+    background-color: #FFFFFF;
+    margin: 0;
+    display: none;
+    min-width: 300px; /* Changed this to accomodate content width */
+    max-height: auto;
+      margin-left: -1px; /* Add this to keep dropdown in line with edge of navbar */
+    overflow: hidden; /* Changed this from overflow-y:auto; to overflow:hidden; */
+    opacity: 0;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 1;
+    will-change: width, height;
+  }
+  @media screen and (min-width:990px) {
+    div.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0; 
+      }
+
+  }
+  @media screen and (max-width:990px) {
+   .search_form{
+    float: right;
+    width: 100%;
+    text-align: center;
+   }
+  }

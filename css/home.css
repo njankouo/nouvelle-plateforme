@@ -1,0 +1,476 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin:0%;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.navigation{
+    box-shadow: 0;
+}
+.brand-logo{
+    margin-left: 10%;
+    
+}
+.menu_link{
+    display: inline-block;
+}
+.navi_tab{
+    margin-left: 20%;
+    
+}
+.navi_tab li{
+    font-weight: bold;
+}
+.log_sign{
+    margin-right: 10%;
+}
+.li_user_view{
+    display: inline-block;
+    border-bottom: inset 2px red;
+   
+}
+
+.sign{
+    padding:2%;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.log_sign li > a{
+    font-size: 15px;
+    font-weight: bold;
+}
+.first_page{
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+.app_front_container{
+    border: 0px solid black;
+    
+    
+}
+.app_front_container .row{
+    border: 0px solid red;
+    height: 100%;
+    margin-bottom: 0;
+}
+.app_front{
+    border:0px solid black;
+    height: 100%;
+}
+.app_front div{
+    border:0px solid black;
+    
+}
+.brand_sentence{
+    line-height: 1.2;
+}
+
+.app_presa{
+    font-weight: bold;
+    font-size: 50px;
+}
+.app_desc{
+    font-size:45px;
+    font-weight: bold;
+}
+.app_front_image{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.app_front_image img{
+   
+  height: 89%;
+  width: 89%;
+
+ 
+}
+.brand_desc{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.search_app_front{
+    margin-bottom: 2px;
+}
+.current_search{
+    padding: 3px;
+    margin-top: 0;
+}
+.current_search .elmt_search{
+border:1px solid rgb(172, 172, 172);
+border-radius: 5px;
+padding: 2px;
+background-color:transparent;
+font-size: 15px;
+}
+.current_search .elmt_pop{
+    background-color: transparent;
+    font-weight: bold;
+}
+.current_vid{
+    margin-top: 4%;
+}
+.current_vid .title_part{
+    padding: 11.25px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 0.8;
+}
+.current_vid .title_part .sub_title_part{
+    font-size: 12px;
+    font-weight: lighter;
+    
+}
+.vid_action{
+    margin-left:10%;
+}
+.vid_action span{
+    margin: 6px;
+}
+.card_curr_vid .card .card-content .card-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.more_vid a{
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.card_curr_vid .card .card-action .reveal_activ{
+    cursor:pointer;
+    text-transform:uppercase;
+}
+
+.second_page{
+    border:0px solid red ;
+    
+}
+
+.second_page .desc_expect .card{
+    border: 0px solid black;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.second_page .desc_expect .card .card-image{
+    border: 0px solid black;
+    padding: 24px;
+    
+
+}
+.second_page .desc_expect .card .card-content{
+    border: 0px solid black;
+    padding: 20px;
+    height: 100%;
+    text-align: justify;
+    font-weight: 400;
+    
+}
+.second_page .desc_expect .card .card-content .card-title{
+    font-weight: 900;   
+}
+.second_page .desc_expect .card .card-image img{
+    border: 0px solid black;
+    
+}
+.second_page .title_second_page{
+    font-weight: bold;
+    font-size: 25px;
+    border:0px solid red;
+}
+.expect_part{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border: 0px solid black;
+}
+
+.third_page .cat_elmnt{
+    border: 0px solid black;
+    width: 200px;
+    height: 200px;
+    text-align: center;   
+}
+
+.title_third_page{
+    font-weight: bold;
+    font-size: 25px;
+    border: 0px green dashed;
+
+
+}
+.third_page .cat_elmnt p{
+    border: 0px solid black;
+    margin: 0;
+    font-weight:bold ;
+    font-size: 20px;
+}
+.third_page .cat_elmnt img{
+    border: 0px solid black;
+    height: 80%;
+    margin: 0;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+.third_page .cat_elmnt img:hover{
+    height:81%;
+    cursor: pointer;
+    background-color: rgba(250, 225, 225, 0.61);
+
+}
+.third_page{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: 0px solid black;
+}
+.third_page .cat_page{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border: 0px solid black;
+}
+
+.fourth_page{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: 0px solid black;
+    background-color: black;
+    background-image:url(../image/bloc_ope.png) ;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+
+    
+    
+}
+
+.fourth_page .num_page{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border: 0px solid black;
+}
+.fourth_page .num_page .title_num_page{
+    font-weight: bold;
+    font-size: 25px;
+    border: 0px green dashed;
+
+}
+.fourth_page .num_page .row {
+    border: 0px solid red;
+    margin-top: 2%;
+}
+
+
+
+.promo{
+    width: 100%;
+    border: 1px solid rgba(243, 50, 50, 0.5);
+    padding: 10%;
+    border-radius: 20px;
+    box-shadow: rgba(240, 46, 46, 0.4) 0px 5px, rgba(240, 46, 46, 0.3) 0px 10px, rgba(240, 46, 46, 0.2) 0px 15px, rgba(240, 46, 46, 0.1) 0px 20px, rgba(240, 46, 46, 0.05) 0px 25px;
+}
+.promo span{
+    font-size: 3.7rem;
+    font-weight: bold;
+    box-shadow: rgba(196, 196, 196, 0.4) 0px 1px 0.9px 0px;
+
+}
+
+.promo-caption {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+/* la cinquième place*/
+.fifth_page{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.fifth_page .partner_place{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    
+}
+.fifth_page .partner_place .testi_title{
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 25px;
+    border: 0px green dashed;
+}
+.carousel{
+    
+    perspective: 250px;   
+    border: 0px solid black; 
+    
+}
+.carousel .carousel-item {
+	width: 450px;
+	background: #fff;
+	padding: 50px;
+	height: auto;
+	text-align: center;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.img-area {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 50%;
+	border: inset 8px deepskyblue;
+}
+        .img-area img{
+            width: 100%;
+        }
+        .testi p {
+	color: #262626;
+	font-size: 18px;
+	line-height: 1.9;
+}
+        .testi h4 {
+	font-size: 20px;
+	margin: 0;
+	color: #000;
+}
+        .testi h5 {
+	font-size: 14px;
+	letter-spacing: 5px;
+	margin: 7px 0;
+}
+
+/*sixième page*/
+
+.sixth_page{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.sixth_page .partner_place{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.sixth_page .partner_title{
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 25px;
+    border: 0px green dashed;
+}
+.sixth_page .row{
+    margin-top: 5%;
+    
+}
+.sixth_page .partner_place .partner_ico img{
+    max-width:100%;
+    filter: grayscale(100%);
+    transition: all 0.3s;
+}
+.sixth_page .partner_place .partner_ico:hover img{
+    filter: none;
+}
+/* le footer */
+footer .footer-copyright p a {
+    border: 0px solid black;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-right: 6px;
+    
+}
+footer .footer-copyright p a img{
+    border: 0px solid black;
+    width: 35px;
+    height: 35px;
+    filter: grayscale(100%);
+}
+footer .footer-copyright p a:hover img{
+   
+    filter: none;
+}
+.copy_right{
+    width: 250px;
+    
+    margin-top: 2%;
+}
+/*le bouton pour revenir en haut*/
+#button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\2B9D";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  /*fin bouton*/
+  .dropdown-content {
+    background-color: #FFFFFF;
+    margin: 0;
+    display: none;
+    min-width: 300px; /* Changed this to accomodate content width */
+    max-height: auto;
+      margin-left: -1px; /* Add this to keep dropdown in line with edge of navbar */
+    overflow: hidden; /* Changed this from overflow-y:auto; to overflow:hidden; */
+    opacity: 0;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 1;
+    will-change: width, height;
+  }
+
+
+/* la partie mobile*/
+@media screen and (max-width:990px) {
+    html,body{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+    .brand-logo{
+        margin:auto;
+    }
+    .current_vid .title_part , .expect_part .row .card-title{
+        text-align: center;
+    }
+    .current_vid .sub_title_part{
+        text-align: center;
+        line-height: 1.2;
+    }
+    #button {
+        margin: 30px;
+      }
+
+}

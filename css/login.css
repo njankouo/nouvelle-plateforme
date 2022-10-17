@@ -1,0 +1,219 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin:0%;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+}
+header{
+    border: dashed 0px yellow;
+    margin-top: 0;
+   
+}
+.navigation{
+    box-shadow: 0;
+    margin-top: 0;
+
+}
+.brand-logo{
+    margin-left: 10%;
+    
+}
+.menu_link{
+    display: inline-block;
+}
+.navi_tab{
+    margin-left: 20%;
+    
+}
+.navi_tab li{
+    font-weight: bold;
+}
+.log_sign{
+    margin-right: 10%;
+}
+.li_user_view{
+    display: inline-block;
+    border-bottom: inset 2px red;
+   
+}
+
+.sign{
+    padding:2%;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.log_sign li > a{
+    font-size: 15px;
+    font-weight: bold;
+}
+/**/
+main{
+    max-height: 100%;
+    min-height: 93.2%;
+    height: auto;
+    border: 0px dashed green;
+    background: url(../image/log_img.png);
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    
+    
+    
+}
+.login_part{
+    border: 0px solid red;
+    height: 100%;
+    margin-bottom: 0;
+
+}
+.login_part .row{
+    border: 0px solid green;
+    height: inherit;
+}
+
+.login_part p a img{
+    border: 0px solid black;
+    width: 35px;
+    height: 35px;
+    filter: drop-shadow(0px 0px 5px rgba(112, 111, 111, 0.795));
+}
+.use_email_sn,.forg_mdp a{
+    font-weight: 400;
+    color: rgba(124, 124, 124, 0.63);
+}
+.log_form{
+    border: 0px solid magenta;
+     /*revoir cette partie*/
+    background-color: rgba(245, 245, 245, 0.75); 
+}
+.img_msg{
+    font-size: 70px;
+    font-weight: bold;
+    color: #121212;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: -1px 1px 0 #41ba45,
+            1px 1px 0 #c63d2b,
+           1px -1px 0 #42afac,
+          -1px -1px 0 #c6c23f;
+    border: 0px solid red;
+    margin-bottom: 0;
+    margin-top: 8%;
+   
+    
+}
+form{
+    border: 0px solid red;
+    height: 40%;
+    }
+.img_sub{
+    color:white;
+    border: 0px solid green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 0;
+}
+
+
+
+.log_form blockquote{
+    font-size: 28px;
+    font-weight: bold;
+    border-color: red;
+    
+}
+.login_but{
+    
+    
+}
+.img_log{
+    
+    background-color: rgba(0, 0, 0, 0.356);
+    background-size: cover;
+    height: 42%;
+    border: 0px dashed darkgoldenrod;
+    
+}
+ /* label color */
+ .input-field label {
+    color:grey;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label.active {
+    color: #000;
+  }
+  .input-field input[type=password]:focus + label.active {
+    color: #000;
+  }
+  .input-field  .prefix.active {
+    color: black;
+  }
+  .input-field  .prefix {
+    color: grey;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  .input-field input[type=password]:focus:not([readonly]) {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+
+/* le footer */
+footer{
+    height: auto;
+}
+footer .footer-copyright p a {
+    border: 0px solid black;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-right: 6px;
+    
+}
+footer .footer-copyright p a img{
+    border: 0px solid black;
+    width: 35px;
+    height: 35px;
+    filter: grayscale(100%);
+}
+footer .footer-copyright p a:hover img{
+   
+    filter: none;
+}
+.copy_right{
+    width: 250px;
+    vertical-align: middle;
+    margin-top: 2%;
+}
+@media screen and (max-width:990px) {
+    html,body{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+    .brand-logo{
+        margin:auto;
+    }
+    .current_vid .title_part , .expect_part .row .card-title{
+        text-align: center;
+    }
+    .current_vid .sub_title_part{
+        text-align: justify;
+    }
+    #button {
+        margin: 30px;
+      }
+
+}

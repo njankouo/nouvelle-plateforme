@@ -1,0 +1,327 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navigation{
+    box-shadow: 0;
+}
+.brand-logo{
+    margin-left: 0%;
+    
+}
+.menu_link{
+    display: inline-block;
+}
+.navi_tab{
+    margin-left: 10%;
+    margin-right: 0%;
+    
+}
+.navi_tab li{
+    font-weight: bold;
+}
+.log_sign{
+    margin-right: 10%;
+}
+.li_user_view{
+    display: inline-block;
+    border-bottom: inset 2px red;
+   
+}
+
+.sign{
+    padding:2%;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.log_sign li > a{
+    font-size: 15px;
+    font-weight: bold;
+}
+.search_form{
+    border: 0px solid red;
+    width: 40%;
+    margin-left: 2%;
+    padding: 0;
+    display: inline-block;
+    
+}
+.search_form input[type="search"]{
+    border: 0px solid green;
+    margin-left: 0;
+    margin-top:0;
+    
+    
+}
+header .img_header{
+    background-image: url(../image/blog_ban.jpg);
+    background-color: rgba(0, 0, 0, 0.473);
+    background-position:0 80% ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    padding-top: 6%;
+}
+.img_header .row{
+    border: 0px solid red;
+    padding-left: 1%;
+    
+}
+.title_header_card .title_header_course{
+    background-color: rgba(0, 0, 0, 0.575);
+}
+.title_header_card .card-title{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.title_header_card .card-content{
+    text-align: justify;
+    
+}
+.mon_breadcrumb{
+    padding-left: 2%;
+}
+blockquote{
+     font-size: 50px;
+     margin-left: 2%;
+     
+}
+/*deuxième partie*/
+.course_place{
+    border: 0px solid black;
+    position:static;
+}
+.course_place .row{
+    margin-bottom: 0;
+}
+.course_place .filter_course{
+    border: 0px solid red;
+    padding-bottom: 0px;
+    
+}
+
+.course_place .filter_title{
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 2px solid grey;
+}
+.collapsible li{
+    border: 0px solid red;
+    
+}
+.collapsible-header i{
+   
+   border: 0px solid yellow;
+   color: rgb(156, 156, 156);
+}
+.collapsible-header{
+    border: 0px solid teal;
+}
+.collapsible-header span{
+    font-weight: 700;
+    color: rgb(156, 156, 156);
+}
+.collapsible li.active i {/*change la position des icones lors du clic par rottation*/
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    color: black;
+  }
+  .collapsible li.active span {
+    color: black;
+  }
+  .collapsible-body {
+    border: 0px dashed blue;
+    padding: 0px;
+    padding-bottom: 6px;
+    
+  }
+  .collapsible-body p{
+    border: 0px solid blue;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 20%;
+    padding-top: 2px;
+  }
+  
+  /*.collapsible-body p span{
+    font-weight: bold;
+    color:red;
+  }
+  */
+  /*change la couleur du fond du checkbox*/
+  .change_filled[type="checkbox"].filled-in:checked+span:not(.lever):after {
+    border: 2px solid #607d8b;
+    background-color: #607d8b;
+    
+  }
+  li.active .collapsible-body span{/*le span avant le click du check*/
+    color: rgb(156, 156, 156);
+    font-weight: bold;
+  }
+  li.active .collapsible-body .change_filled[type="checkbox"].filled-in:checked+span{
+    color:black; /*le span après le clic du check*/
+  }
+  /*partie des videos*/
+  .first_quote{
+    border-color:grey ;
+    color:  rgb(94, 94, 94);
+  }
+  .card_curr_vid .card .card-action .reveal_activ{
+    cursor:pointer;
+    text-transform:uppercase;
+}
+    .vid_action{
+        margin-left:10%;
+    }
+    .vid_action span{
+        margin: 6px;
+    }
+.course_container{
+    border: 0px solid red;
+    height: auto;
+    margin-bottom: 0%;
+}
+.course_container .row{
+    padding-left:40px ;
+    padding-right:2px ;
+    border: 0px solid black;
+    margin-bottom: 0%;
+    height: 900px;
+    
+}
+main .card .card-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.course_container .test{
+    border: 0px solid red;
+    overflow: auto;
+}
+.course_container .test .card-image{
+    border: 0px solid red;
+   
+}
+.course_container .test .card-image img{
+   
+ height: 240px;
+}
+/*la modification du scroll bar (pour cours)*/
+
+    /* width */
+    .test::-webkit-scrollbar {
+        width: 1px;
+      }
+      
+      /* Track. conteneur de scroll bar*/
+      .test::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      }
+       
+      /* Handle. la bar en elle meme */
+      .test::-webkit-scrollbar-thumb {
+        background: #888; 
+      }
+      
+      /* Handle on hover. au survol de la barre */
+      .test::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+            
+    
+      /*fin modif*/
+/**/
+/*le bouton pour revenir en haut*/
+#button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\2B9D";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  /*fin bouton*/
+
+/* le footer */
+footer .footer-copyright p a {
+    border: 0px solid black;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-right: 6px;
+    
+}
+footer .footer-copyright p a img{
+    border: 0px solid black;
+    width: 35px;
+    height: 35px;
+    filter: grayscale(100%);
+}
+footer .footer-copyright p a:hover img{
+   
+    filter: none;
+}
+.copy_right{
+    width: 250px;
+    
+    margin-top: 2%;
+}
+/*dropdown content*/
+.dropdown-content {
+    background-color: #FFFFFF;
+    margin: 0;
+    display: none;
+    min-width: 300px; /* Changed this to accomodate content width */
+    max-height: auto;
+      margin-left: -1px; /* Add this to keep dropdown in line with edge of navbar */
+    overflow: hidden; /* Changed this from overflow-y:auto; to overflow:hidden; */
+    opacity: 0;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 1;
+    will-change: width, height;
+  }
+  @media screen and (max-width:990px) {
+    .search_form{
+     float: right;
+     width: 100%;
+    
+    }
+  }
